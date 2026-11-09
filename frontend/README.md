@@ -25,5 +25,20 @@ Database & Storage: MongoDB Atlas, Cloudinary
 
 External Integration: Meta WhatsApp Cloud API (Graph API)
 
+Installation & Setup
+1. Clone Repository
+Bash
+git clone https://github.com/usmancoding-ai/whatsapp-crm.git
+cd whatsapp-crm
+2. Backend Setup
+Bash
+cd backend
+npm install
+npm run dev
+3. Frontend Setup
+Bash
+cd ../frontend
+npm install
+npm run dev
 License
 This project is licensed under the MIT License.
