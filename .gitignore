@@ -1,0 +1,29 @@
+# Dependency directories (Bohat heavy files jo GitHub par nahi jani chahiyein)
+node_modules/
+**/node_modules/
+
+# Environment files (Security! Token, Passwords aur API Keys leak na hon)
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Uploaded media & temp files
+uploads/
+**/uploads/
+temp/
+**/temp/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# System & Editor files
+.DS_Store
+.vscode/
